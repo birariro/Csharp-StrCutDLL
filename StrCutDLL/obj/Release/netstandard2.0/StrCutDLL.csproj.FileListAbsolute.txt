@@ -1,0 +1,8 @@
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\bin\Release\netstandard2.0\StrCutDLL.deps.json
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\bin\Release\netstandard2.0\StrCutDLL.dll
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\bin\Release\netstandard2.0\StrCutDLL.pdb
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\obj\Release\netstandard2.0\StrCutDLL.AssemblyInfoInputs.cache
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\obj\Release\netstandard2.0\StrCutDLL.AssemblyInfo.cs
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\obj\Release\netstandard2.0\StrCutDLL.csproj.CoreCompileInputs.cache
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\obj\Release\netstandard2.0\StrCutDLL.dll
+D:\ProjectPath\GitOpen\Csharp-StrCutDLL\StrCutDLL\obj\Release\netstandard2.0\StrCutDLL.pdb
