@@ -20,7 +20,7 @@ namespace StrCutDLL
             if (strStart != null)
             {
                 indexStart = Original.IndexOf(strStart);
-                if (indexStart == -1) throw new Exception("strStart Check it out"); //no strStart
+                if (indexStart == -1) throw new Exception("parameter(strStart) Check it out"); //no strStart
                 indexStart += strStart.Length;
             }
             else indexStart = 0;
@@ -29,7 +29,7 @@ namespace StrCutDLL
             if (strEnd != null)
             {
                 int indexEnd = Original.IndexOf(strEnd, indexStart) - indexStart;
-                if (indexEnd < 0) throw new Exception("strEnd Check it out"); //no strEnd
+                if (indexEnd < 0) throw new Exception("parameter(strEnd) Check it out"); //no strEnd
                 Original = Original.Substring(indexStart, indexEnd);
             }
             else Original = Original.Substring(indexStart);
