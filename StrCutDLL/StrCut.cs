@@ -45,5 +45,10 @@ namespace StrCutDLL
             if (resultStr.Length == 0) throw new Exception("All Check it out"); //no Value
             return resultStr.ToString();
         }
+        public static string[] ArrSplit(string Original, string SplitStr)
+        {
+            string[] result = Original.Split(new string[] { SplitStr }, StringSplitOptions.None);
+            return result;
+        }
     }
 }
