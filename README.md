@@ -4,8 +4,7 @@
 
 ## StrCut
 ### Description
-Find only the desired location in the string  
-Bring money in a typical way.
+Import only the characters you want from a string.
 Parameter : True = integer find  , False : All Data
 
 ### instruction
