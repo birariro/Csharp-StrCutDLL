@@ -86,7 +86,6 @@ namespace StrCutDLL
             }
             catch (Exception e)
             {
-                DebugLog.e(e);
                 return new string[] { "ERR" };
             }
 
