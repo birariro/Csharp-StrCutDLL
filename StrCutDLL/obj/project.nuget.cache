@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "62vxVjwpSNAcAr4RuFni1pUysVirLacOMNKSmlmfM1+j99IGdT6OhN0Fg0HOk9P1XyAzyWt0yi5kjxdPx8TN8A==",
+  "dgSpecHash": "wSBwmArt9rcKgN0tuErhFxFFQaiv4BUwpVpcxmBe/pw0+g4hOvGiub2iYcwoVisG9/vtPddlbiKHJQym+LubSQ==",
   "success": true,
-  "projectFilePath": "D:\\ProjectPath\\GitOpen\\Csharp-StrCutDLL\\StrCutDLL\\StrCutDLL.csproj",
+  "projectFilePath": "C:\\Users\\qoom\\Desktop\\k4keye\\gitk4keye\\Csharp-StrCutDLL\\StrCutDLL\\StrCutDLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vps32\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\vps32\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\qoom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\qoom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

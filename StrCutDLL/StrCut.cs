@@ -90,5 +90,47 @@ namespace StrCutDLL
             }
 
         }
+        /// <summary>
+        /// Find Element
+        /// </summary>
+        /// <param name="Json">Original Json Full Text</param>
+        /// <param name="ElementName">Json text in Target Name</param>
+        public static string GetJsonElement(string Json, string ElementName)
+        {
+            string ElementNameTag = "\"" + ElementName + "\":";
+            try
+            {
+                int indexStart = 0;
+
+                indexStart = Json.IndexOf(ElementNameTag);
+                if (indexStart == -1)
+                {
+                    throw new Exception($"Parameter ElementName[{ElementName}] Check it out : " + Json); //no ElementName
+                }
+                indexStart += ElementNameTag.Length;
+
+
+                int indexEnd = Json.IndexOf(",", indexStart) - indexStart;
+                if (indexEnd < 0)
+                {
+                    indexEnd = Json.IndexOf("}", indexStart) - indexStart;
+                    if (indexEnd < 0)
+                    {
+                        throw new Exception($"Parameter ElementName[{ElementName}] noting End"); //끝을 못찾겠다.
+                    }
+                }
+                Json = Json.Substring(indexStart, indexEnd);
+                if (Json.IndexOf("\"") == 0) //0번 문자열이 " 라면 맨뒤의 " 와 같이 제거한다.
+                {
+                    Json = Json.Substring(1, Json.Length - 2);
+                }
+                return Json;
+            }
+            catch (Exception e)
+            {
+                DebugLog.e(e);
+                return "ERR";
+            }
+        }
     }
 }
